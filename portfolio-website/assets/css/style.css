@@ -1,3 +1,80 @@
 * {
-    font-family: 'Clash Display', sans-serif;
+    box-sizing: border-box;
+    font-family: "Clash Display", sans-serif;
+    line-height: 1.6;
 }
+
+body {
+    background-color: black;
+    color: #f5f5f5;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height 1.1;
+    letter-spacing: -0.5px;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 12rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+button {
+    background: transparent;
+    color: #f5f5f5;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #f5f5f5;
+    color: black;
+}
+
+.site-header {
+    padding: 40px 0;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.local-time, .nav-toggle {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.btn-contact {
+    text-decoration: none;
+    border: 1px solid #f5f5f5;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.hero-text {
+    padding: 80px 0;
+    text-align: center;
+}
+
