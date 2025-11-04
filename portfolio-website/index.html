@@ -6,28 +6,57 @@
   <title>PHXCODES | Portfolio</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://api.fontshare.com/v2/css?f[]=clash-display@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 </head>
 <body id="top">
 
   <header class="site-header">
     <div class="container">
       <div class="header-top">
-        <span class="local-time">Local time</span>
+        <span class="local-label">local/</span>
+        <span id="local-time"></span>
         <button class="nav-toggle" aria-label="Open navigation">☰</button>
         <a href="#contact" class="btn-contact">Contact Now</a>
       </div>
 
       <div class="hero-text">
         <h1>PHXCODES</h1>
-        <p><strong>Based in Sweden</strong></p>
-        <p>Available worldwide</p>
-        <p>Fullstack Developer</p>
       </div>
+      <div class="info-grid">
+    <div class="info-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <p class="main-label">BASED IN</p>
+        <p class="sub-label">SWEDEN</p>
+    </div>
+
+    <div class="info-item">
+        <i class="fa-solid fa-globe"></i>
+        <p class="main-label">AVAILABLE ALL AROUND</p>
+        <p class="sub-label">WORLDWIDE</p>
+    </div>
+
+    <div class="info-item">
+        <i class="fa-solid fa-code"></i>
+        <p class="main-label">FULLSTACK</p>
+        <p class="sub-label">DEVELOPER</p>
+    </div>
+</div>
     </div>
   </header>
 
   <main>
+<!-- Separator for Page 1 -->
+    <div class="section-separator">
+      <span class="page-number">01</span>
+      <span class="section-title">// Approach</span>
+      <span class="extra-info"></span>
+      
+    </div>
 
+    <!-- Page 1: Approach -->
     <section class="approach">
       <div class="container">
         <h2>I'm Phoenix Timonen, Based in Sweden.</h2>
@@ -35,29 +64,81 @@
       </div>
     </section>
 
+    <!-- Separator for Page 2 -->
+    <div class="section-separator">
+      <span class="page-number">02</span>
+      <span class="section-title">// Portfolio</span>
+      <span class="extra-info"></span>
+      
+    </div>
+
+    <!-- Page 2: Portfolio -->
     <section class="portfolio">
       <div class="container">
-        <h2>My Portfolio</h2>
-        <p>A dedicated developer focused on clean code and pixel-perfect design</p>
+        <h2>My<br>Portfolio</h2>
         <div class="portfolio-grid">
-          <div class="project-card">Project 1</div>
-          <div class="project-card">Project 2</div>
-          <div class="project-card">Project 3</div>
-          <div class="project-card">Project 4</div>
+          <div class="portfolio-item item-1">
+            <div class="item-content">
+                <h3>Project Title 1</h3>
+                <p>Coming Soon</p>
+            </div>
+        </div>
+
+        <div class="portfolio-item item-2">
+            <div class="item-content">
+                <h3>Project Title 2</h3>
+                <p>Coming Soon</p>
+            </div>
+        </div>
+
+        <div class="portfolio-item item-3">
+            <div class="item-content">
+                <h3>Project Title 3</h3>
+                <p>Coming Soon</p>
+            </div>
+        </div>
+
+        <div class="portfolio-item item-4">
+            <div class="item-content">
+                <h3>Project Title 4</h3>
+                <p>Coming Soon</p>
+            </div>
+        </div>
         </div>
       </div>
     </section>
 
+    <!-- Separator for Page 3 -->
+    <div class="section-separator">
+      <span class="page-number">03</span>
+      <span class="section-title">// Who Am I</span>
+      <span class="extra-info"></span>
+      
+    </div>
+
+    <!-- Page 3: About -->
     <section class="about">
       <div class="container">
-        <h2>More About PHXCODES</h2>
-        <img src="assets/images/your-photo.jpg" alt="Portrait of Phoenix Timonen">
-        <p>Sweden-based aspiring Fullstack Blockchain Developer. Dedicated to creating elegant, high-performing digital solutions.</p>
-        <p>Driven by a dedication to the craft. I specialize in finding the 'unconventional solution'—transforming creative visions into intuitive, pixel-perfect digital reality.</p>
-        <button>Download Resume</button>
+        <h2>
+          More About<br>
+          <span class="highlight">PHXCODES</span>
+        </h2>
+        <img class="profile-pic" src="assets/img/profile.png" alt="Portrait of Phoenix Timonen">
+        <p class="intro-sum">Sweden-based aspiring Fullstack Blockchain Developer.<br>Dedicated to creating elegant, high-performing digital solutions.</p>
+        <p class="intro-statement">Driven by a dedication to the craft. I specialize in finding the 'unconventional solution'<br>—transforming creative visions into intuitive, pixel-perfect digital reality.</p>
+        <button class="resume-button">Download Resume</button>
       </div>
     </section>
 
+    <!-- Separator for Page 4 -->
+    <div class="section-separator">
+      <span class="page-number">04</span>
+      <span class="section-title">// Experience</span>
+      <span class="extra-info"></span>
+      
+    </div>
+
+    <!-- Page 4: Experience -->
     <section class="experience">
       <div class="container">
         <h2>Experience</h2>
@@ -85,40 +166,54 @@
       </div>
     </section>
 
+    <!-- Separator for Page 5 -->
+    <div class="section-separator">
+      <span class="page-number">05</span>
+      <span class="section-title">// Stack & Tools</span>
+      <span class="extra-info"></span>
+      
+    </div>
+
+    <!-- Page 5: Stack -->
     <section class="stack">
       <div class="container">
         <h2>Stack & Tools</h2>
 
         <article class="stack-item">
           <h3>HTML | CSS</h3>
-          <p><strong>Web Dev Tools</strong></p>
-          <p>Basic tools for web development</p>
-          <p>95%</p>
+          <p class="title"><strong>Web Dev Tools</strong></p>
+          <p class="exp-description">Basic tools for web development</p>
         </article>
 
         <article class="stack-item">
           <h3>Node.js | React</h3>
-          <p><strong>Frameworks</strong></p>
-          <p>Frameworks for enhanced development</p>
-          <p>98%</p>
+          <p class="title"><strong>Frameworks</strong></p>
+          <p class="exp-description">Frameworks for enhanced development</p>
         </article>
 
         <article class="stack-item">
           <h3>JavaScript</h3>
-          <p><strong>Front End Development</strong></p>
-          <p>JavaScript, often abbreviated as JS, is a programming language and technology alongside HTML and CSS.</p>
-          <p>92%</p>
+          <p class="title"><strong>Front End Development</strong></p>
+          <p class="exp-description">JavaScript, often abbreviated as JS, is a programming language and technology alongside HTML and CSS.</p>
         </article>
 
         <article class="stack-item">
           <h3>Smart Contracts</h3>
-          <p><strong>Ethereum</strong></p>
-          <p>Create smart contracts using different tools customized for blockchain networks.</p>
-          <p>88%</p>
+          <p class="title"><strong>Ethereum</strong></p>
+          <p class="exp-description">Create smart contracts using different tools customized for blockchain networks.</p>
         </article>
       </div>
     </section>
 
+    <!-- Separator for Page 6 -->
+    <div class="section-separator">
+      <span class="page-number">06</span>
+      <span class="section-title">// Contact</span>
+      <span class="extra-info"></span>
+      
+    </div>
+
+    <!-- Page 6: Contact -->
     <section class="contact">
       <div class="container">
         <h2>Let’s Work Together</h2>
@@ -132,6 +227,6 @@
     </section>
 
   </main>
-
+<script src="assets/js/timescript.js"></script>
 </body>
 </html>
