@@ -1,9 +1,31 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/_-xj5sNl)
-# Inlämningsuppgift
-Här är repot för din inlämningsuppgift.
+# PHXCODES Portfolio (Skolprojekt)
 
-I den finns just nu endast en `.gitignore`-fil, som exkluderar vissa systemfiler från att komma med i versionshanteringen.
+Denna portfolio är utvecklad som ett skolprojekt i kursen [HTML/CSS] och visar en responsiv webbplats byggd med fokus på ren HTML5, CSS3 och Vanilla JavaScript.
 
-⚠️ Viktigt! Döp din "huvudfil" till `index.html`, annars kommer inte GitHub Pages att fungera automatiskt :)
+## 🛠️ Tekniska Specifikationer
 
-Det går bra att radera/redigera denna README-fil.
+* **HTML:** Semantisk HTML5-struktur med fokus på tillgänglighet.
+* **CSS:** CSS3 (Custom Styling) och responsiv design via Media Queries.
+* **JavaScript:** Vanilla JS för Fullskärmsmeny, Modal-hantering och lokal tid.
+
+## ✅ Uppfyllda Krav (Kvalitetsbevis)
+
+Alla obligatoriska kvalitets- och tillgänglighetskrav har uppfyllts.
+
+### 1. W3C HTML-validering
+Koden är fri från syntaxfel och följer strikt HTML5-standard. Små fel (URL-kodning, XHTML-syntax) har åtgärdats.
+
+![Skärmdump av W3C Validator som visar "No errors or warnings to show."](./assets/images/w3cvalidator.png)
+
+### 2. Lighthouse Tillgänglighet (Accessibility)
+Webbplatsen testades med Chrome Lighthouse för att säkerställa hög tillgänglighet (WCAG 2.1).
+
+| Mätvärde | Poäng (Desktop) | Kommentar |
+| :--- | :--- | :--- |
+| **Accessibility** | **99%** | Uppnåddes genom att justera kontrast, fokusstyling (`:focus-visible`) och se till att tryckmål är tillräckligt stora på mobil. |
+
+![Skärmdump av Lighthouse-rapporten som visar 99% för desktop](./assets/images/lighthouse-desktop.png)
+![Skärmdump av Lighthouse-rapporten som visar 86% för mobile](./assets/images/lighthouse-mobile.png)
+
+---
+**Kontakt:** [Ditt student-ID eller skol-mail]
