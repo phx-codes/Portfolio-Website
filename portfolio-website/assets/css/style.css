@@ -317,7 +317,7 @@ button:hover {
 
 .item-content {
     padding-top: 30px;
-    color: gray;
+    color: lightgray;
 }
 
 .about h2 {
@@ -1036,4 +1036,23 @@ aside.info-grid {
 .contact-popup-content .form-group label {
     display: block; 
     width: 100%;
+}
+
+button:focus-visible,
+a:focus-visible {
+    outline: 3px solid #ffcc00;
+    outline-offset: 2px;
+    border-radius: 4px; 
+}
+
+.nav-toggle:focus-visible {
+    outline: 3px solid #ffcc00; 
+    border-radius: 50%; 
+}
+
+input:focus, 
+textarea:focus, 
+select:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #ffcc00; 
 }
