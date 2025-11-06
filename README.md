@@ -8,6 +8,9 @@ Denna portfolio är utvecklad som ett skolprojekt i kursen [HTML/CSS] och visar 
 * **CSS:** CSS3 (Custom Styling) och responsiv design via Media Queries.
 * **JavaScript:** Vanilla JS för Fullskärmsmeny, Modal-hantering och lokal tid.
 
+* Gjorde designen via en figma template!
+* ![Skärmdump av figma design för sidan"](portfolio-website/assets/img/figmamockup.png)
+
 ## ✅ Uppfyllda Krav (Kvalitetsbevis)
 
 Alla obligatoriska kvalitets- och tillgänglighetskrav har uppfyllts.
