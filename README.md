@@ -15,7 +15,7 @@ Alla obligatoriska kvalitets- och tillgänglighetskrav har uppfyllts.
 ### 1. W3C HTML-validering
 Koden är fri från syntaxfel och följer strikt HTML5-standard. Små fel (URL-kodning, XHTML-syntax) har åtgärdats.
 
-![Skärmdump av W3C Validator som visar "No errors or warnings to show."](./assets/img/w3cvalidator.png)
+![Skärmdump av W3C Validator som visar "No errors or warnings to show."](portfolio-website/assets/img/w3cvalidator.png)
 
 ### 2. Lighthouse Tillgänglighet (Accessibility)
 Webbplatsen testades med Chrome Lighthouse för att säkerställa hög tillgänglighet (WCAG 2.1).
@@ -24,8 +24,8 @@ Webbplatsen testades med Chrome Lighthouse för att säkerställa hög tillgäng
 | :--- | :--- | :--- |
 | **Accessibility** | **99%** | Uppnåddes genom att justera kontrast, fokusstyling (`:focus-visible`) och se till att tryckmål är tillräckligt stora på mobil. |
 
-![Skärmdump av Lighthouse-rapporten som visar 99% för desktop](./assets/img/lighthouse-desktop.png)
-![Skärmdump av Lighthouse-rapporten som visar 86% för mobile](./assets/img/lighthouse-mobile.png)
+![Skärmdump av Lighthouse-rapporten som visar 99% för desktop](portfolio-website/assets/img/lighthouse-desktop.png)
+![Skärmdump av Lighthouse-rapporten som visar 86% för mobile](portfolio-website/assets/img/lighthouse-mobile.png)
 
 ---
 **Kontakt:** [phoenix.timonen@medieinstitutet.se]
