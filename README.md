@@ -2,6 +2,9 @@
 
 Denna portfolio är utvecklad som ett skolprojekt i kursen [HTML/CSS] och visar en responsiv webbplats byggd med fokus på ren HTML5, CSS3 och Vanilla JavaScript.
 
+## 🚀 Live Demo
+[Click here to view the live site](https://phx-codes.github.io/Portfolio-Website/)
+
 ## 🛠️ Tekniska Specifikationer
 
 * **HTML:** Semantisk HTML5-struktur med fokus på tillgänglighet.
